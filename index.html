@@ -7,18 +7,20 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
 <div class="container">
     <div class="weather-side">
-        <div class="main-day"><h1>Tuesday</h1></div>
+        <div class="date-container">
+        <div class="main-day">Tuesday</div>
         <div class="date">15 January 2019</div>
         <div class="city">Paris</div>
-        <div class="icon">🌞</div>
-        <div class="temperature"><h1>29&deg;</h1></div>
+        </div>
+        <div class="weather-container">
+        <div class="main-icon">🌞</div>
+        <div class="temperature">29&deg;</div>
         <div class="condition">Sunny</div>
         </div>
-    </header>
-    <main>
+    </div>
+        <div>
             <form class="form">
             <input type="search" placeholder="Enter Your City" required class="input"/>
             <input type="submit" value="search" class="button"/>
@@ -33,11 +35,37 @@
         </div>
 
         <div id="forecast" class="forecast-day">
-            <div class="icon">🌞</div>
-            <div class="day">Tue</div>
-            <div class="degree">29&deg;</div>
+            <div class="temp">
+                
+        <ul class="first-day">
+            <li class="icon">🌞</li>
+            <li class="day">Tue</li>
+            <li class="degree">29&deg;</li>
+            </ul>
+            </div>
+            <div class="temps">
+                 <ul>
+            <li class="icon">🌞</li>
+            <li class="day">Wed</li>
+            <li class="degree">29&deg;</li>
+            </ul>
+            </div>
+            <div class="temps">
+                 <ul>
+            <li class="icon">🌞</li>
+            <li class="day">Thu</li>
+            <li class="degree">29&deg;</li>
+            </ul>
+            </div>
+            <div class="temps">
+                 <ul>
+            <li class="icon">🌞</li>
+            <li class="day">Fri</li>
+            <li class="degree">29&deg;</li>
+            </ul>
+            </div>
         </div>
-    </main>
+        </div>
     <footer>
 
     </footer>

@@ -1,0 +1,166 @@
+.container{
+    color: white;
+    display: block;
+    margin: 0 auto;
+    max-width: 600px;
+    max-height: 900px;
+    display:flex;
+    justify-content: space-between;
+    background-color: #222831;
+	color: #ffffff;
+    padding-top: 40px  60px;
+    border-radius: 25px;
+    height: 400px;
+    box-shadow: 0 0 70px -10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: black;
+}
+.weather-side{
+    position: relative;
+    background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+    padding:135px;
+    height: 272px;
+    padding-top: 0px;
+    border-radius: 25px;
+     transition: transform 300ms ease-in-out;
+    
+    
+}
+
+.weather-side:hover{
+
+    transform: scale(1.1) perspective(1500px) rotateY(10deg);
+}
+
+.input{
+    margin-top: 20px;
+    padding:8px;
+    border-radius: 30px;
+    border:none
+    
+}
+.button{
+    width: 90px;
+    padding: 8px;
+    border-radius: 30px;
+    background: linear-gradient(to right,blueviolet ,pink,blue,purple);
+}
+
+#humid-data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+#wind-data{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+#forecast{
+    border-top: 10px white ;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    
+}
+
+.date-container {
+	position: absolute;
+	top: 25px;
+	left: 25px;
+}
+
+.weather-container {
+	position: absolute;
+	bottom: 25px;
+	left: 25px
+}
+.temperature{
+    margin: 0;
+    font-weight: 700;
+    font-size: 4em;
+}
+.condition{
+    margin: 0;
+    font-size: 27px;
+    font-weight: bold;
+}
+
+.main-icon{
+ font-size: 50px;
+}
+
+.main-day{
+    margin: 0;
+   font-size: 30px;
+}
+
+.date{
+    margin-top: 0;
+    font-size: 16px;
+}
+.humid{
+    font-size: 20px;
+    font-weight: bold;
+}
+.percentage{
+    font-size: 20px;
+    font-weight: bold
+}
+.wind{
+    font-size: 20px;
+    font-weight: bold
+}
+.speed{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+ul{
+    list-style-type: none;
+    background: #222831;
+    transition: 200ms ease-in-out;
+	border-radius: 10px;
+     box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
+    padding: 22px;
+    cursor: pointer;
+    
+    
+
+
+}
+
+  ul:hover {
+    background: #fff;
+	color: #222831;
+    transform: scale(1.1);
+     box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2)
+}
+ .icon{
+    padding-bottom: 10px;
+ }
+ .day{
+    padding-bottom: 10px;
+ }
+ .first-day{
+    background: #fff;
+    color: blacK;
+    box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2);
+ }
+
+ .first-day:hover{
+    transform: scale(1.1)
+ }
+
+
+
+
