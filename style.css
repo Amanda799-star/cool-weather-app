@@ -19,11 +19,11 @@
 
 body{
     font-family: 'Montserrat', sans-serif;
-    background: black;
+    background: linear-gradient(to right,blueviolet ,pink,blue,purple);
 }
 .weather-side{
     position: relative;
-    background-image: url("https://images.unsplash.com/photo-1559963110-71b394e7494d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=675&q=80");
+    background-image: url("https://img.freepik.com/premium-photo/lightning-sky-with-clouds_1051578-81416.jpg");
     padding:135px;
     height: 272px;
     padding-top: 0px;

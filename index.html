@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Forecast</title>
+     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,7 +12,11 @@
     <div class="weather-side">
         <div class="date-container">
         <div class="main-day">Tuesday</div>
-        <div class="date">15 January 2019</div>
+        <div class="date">
+            <span id=date>15</span>
+            <span id="month">January</span>
+            <span id="year"> 2019</span>
+        </div>
         <div class="city">Paris</div>
         </div>
         <div class="weather-container">
@@ -67,7 +72,7 @@
         </div>
         </div>
     <footer>
-
+<script src="index.js"></script>
     </footer>
 </body>
 </html>
