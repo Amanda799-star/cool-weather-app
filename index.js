@@ -16,10 +16,10 @@
 }
 
 function displaytemp(response){
-    let date=response.data.
     let temp=Math.round(response.data.temperature.current);
     let condition =response.data.condition.description;
-    let icon=`<img src={response.data.condition.icon_url} class="main-icon"/>;`
+    let showIcon=document.querySelector("#iconPicture");
+    showIcon.innerHTML=`<img src="${response.data.condition.icon_url}"class=main-icon/>`
     let showCondition=document.querySelector(".condition");
     showCondition.innerHTML = condition;
     let showTemp=document.querySelector(".temperature");
