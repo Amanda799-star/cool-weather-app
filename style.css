@@ -2,8 +2,8 @@
     color: white;
     display: block;
     margin: 0 auto;
-    max-width: 600px;
-    max-height: 900px;
+    max-width: 650px;
+    max-height: 1000px;
     display:flex;
     justify-content: space-between;
     background-color: #222831;
@@ -23,14 +23,13 @@ body{
 }
 .weather-side{
     position: relative;
-    background-image: url("https://img.freepik.com/premium-photo/lightning-sky-with-clouds_1051578-81416.jpg");
+    background-image: url("https://i.pinimg.com/originals/0b/21/f6/0b21f6ad37b9c694b0a4f8640978ff9c.gif");
     padding:135px;
     height: 272px;
     padding-top: 0px;
     border-radius: 25px;
      transition: transform 300ms ease-in-out;
-    
-    
+  
 }
 
 .weather-side:hover{
@@ -52,12 +51,15 @@ body{
     background: linear-gradient(to right,blueviolet ,pink,blue,purple);
 }
 
+
 #humid-data{
+    margin-right: 30px;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 #wind-data{
+    margin-right: 30px;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
@@ -68,6 +70,7 @@ body{
     display: flex;
     justify-content: space-between;
     margin-top: 90px;
+    margin-right: 20px;
     
 }
 
@@ -94,20 +97,25 @@ body{
 }
 
 .main-icon{
+    width: 90px;
+    height: 90px;
  font-size: 50px;
  padding-bottom: 0px;
 }
 
-.main-day{
+.city{
     margin: 0;
    font-size: 30px;
 }
 
-.date{
+.time{
     margin-top: 0;
     font-size: 16px;
 }
+
+
 .humid{
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
 }
@@ -127,13 +135,17 @@ body{
 
 
 ul{
+    max-width: 35px;
     list-style-type: none;
-    background: #222831;
+    background:#222831;
+	color: #fff;
     transition: 200ms ease-in-out;
-	border-radius: 10px;
+	border-radius: 25px;
      box-shadow: 0 0 50px -5px rgba(0, 0, 0, 0.25);
     padding: 22px;
     cursor: pointer;
+display: block;
+margin: 0 auto;
     
     
 
@@ -141,16 +153,18 @@ ul{
 }
 
   ul:hover {
-    background: #fff;
-	color: #222831;
+    background:#fff;
+	color:#fff;
     transform: scale(1.1);
      box-shadow: 0 0 40px -5px rgba(0, 0, 0, 0.2)
 }
  .icon{
     padding-bottom: 10px;
+    width: 40px;
+    height: 40px;
  }
  .day{
-    padding-bottom: 10px;
+    padding-bottom:10px; 
  }
  .first-day{
     background: #fff;
@@ -160,6 +174,15 @@ ul{
 
  .first-day:hover{
     transform: scale(1.1)
+ }
+
+ a{
+    text-decoration: none;
+    color: rgb(51, 3, 51);
+ }
+ .coder{
+    margin-top: 60px;
+    text-align: center;
  }
 
 
